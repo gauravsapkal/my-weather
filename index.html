@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://www.kindpng.com/picc/m/178-1780507_sunny-weather-weather-line-icon-png-transparent-png.png">
+</head>
+
+<body onload="getPosition()">
+
+    <div id="nav">
+        <img src="https://cdn.dribbble.com/users/2277649/screenshots/8498294/media/1f87fae49becc4fac866d70cbb5eca37.gif" alt="">
+        <div>
+        <h1>Know Weather</h1>
+        <p>Your all weather guide..🙂</p>
+    </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="city" placeholder="Enter your city">
+            <button onclick="getWeather()" id="submit">Search</button>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/originals/3d/1c/e3/3d1ce3fb1985505ba88e01e525a8f841.gif" alt="">
+        </div>
+    </div>
+    
+
+    <div id="parent">
+
+    <div id="content">
+        
+        <!-- <h2 id="cityHeading"></h2>
+        <div id="desc"></div>
+        <div id="temp"></div>
+        <div id="humidity"></div> -->
+    </div>
+
+
+    <!------------------- map-------------------- -->
+
+
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src=""
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://123movies-to.org"></a><br>
+        </div>
+    </div>
+
+</div>
+<!----------------------7 days forecast----------------------------------  -->
+
+<h1 id="forecast7days"></h1>
+
+<div id="forecast">
+    <!-- <div>
+        <h2>Thursday</h2>
+        <img src="https://openweathermap.org/img/w/04d.png" alt="">
+        <h2>31 °</h2>
+        <h2>20 °</h2>
+    </div> -->
+    
+</div>
+
+
+
+
+
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/bccd922fb7.js" crossorigin="anonymous"></script>

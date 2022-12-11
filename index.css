@@ -1,0 +1,210 @@
+/* ----------------------map------------------------- */
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+
+/* ----------------------map------------------------- */
+
+
+
+
+/* ---------------------- 7 days forecast------------------- */
+
+#forecast{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+#forecast > div{
+    border: 1px solid rgb(114, 114, 114);
+    width: 100%;
+    height: 180px;
+    background-color: rgb(75, 74, 74);
+    text-align: center;
+}
+
+#forecast > div > h2~h2{
+    margin-top: -7px;
+}
+
+#forecast > div > img{
+    margin-top: -20px;
+}
+
+
+#nav{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 90px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    margin-top: -130px;
+    margin-left: -10px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+#nav > img{
+    height: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#nav > div{
+    margin-left: 30px;
+}
+
+
+#nav > div > p{
+    margin-top: -18px;
+}
+
+#city{
+    border: none;
+    outline: none;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    /* border-bottom: 2px solid white; */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav > div:nth-child(3){
+    border: 2px solid white;
+    padding: 10px;
+    width: 450px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#submit{
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(209, 209, 209);
+    /* background-color: #fff; */
+    color: rgb(0, 102, 255);
+    border-radius: 15px;
+    margin-right: -50px;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#nav > div:nth-child(4) > img{
+    width: 545px;
+    height: 90px;
+    margin-right: -120px;
+    align-items: center;
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#parent{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 130px;
+    justify-content: space-around;
+}
+
+ /* #gmap_canvas{
+    height: 50vh;
+} */
+
+.gmap_canvas{
+    height: 50vh;
+}
+
+.mapouter{
+    height: 52vh;
+    width: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#date{
+    width: 250px;
+    color: #eb6e4c;
+    font-weight: bold;
+    /* margin-bottom: -10px; */
+}
+
+#cityHeading{
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+#temp{
+    display: flex;
+    align-items: center;
+    /* width: 300px; */
+    /* height: 150px; */
+    /* border: 2px solid black; */
+    margin-top: -70px;
+    margin-left: -15px;
+}
+
+#temp > img{
+    height: 80px;
+    width: 80px;
+}
+
+#temp > p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#content{
+    border-left: 1px solid rgb(183, 183, 183);
+    padding-left: 35px;
+}
+
+#desc{
+    margin-top: -70px;
+}
+#desc > p{
+    /* margin-top: -15px; */
+    font-size: 20px;
+}
+
+#humidity > p{
+    font-size: 20px;
+}
+
+#forecast7days{
+    margin-top: 80px;
+    text-align: center;
+}
